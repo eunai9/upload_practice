@@ -1,0 +1,15 @@
+{"time":"2025-05-19T14:23:43.651998422+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/euna/m6_practice/wandb/run-20250519_142343-sthocfm1/logs/debug-core.log"}
+{"time":"2025-05-19T14:23:44.497737584+02:00","level":"INFO","msg":"created new stream","id":"sthocfm1"}
+{"time":"2025-05-19T14:23:44.497865624+02:00","level":"INFO","msg":"stream: started","id":"sthocfm1"}
+{"time":"2025-05-19T14:23:44.497964099+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"sthocfm1"}
+{"time":"2025-05-19T14:23:44.498010686+02:00","level":"INFO","msg":"sender: started","stream_id":"sthocfm1"}
+{"time":"2025-05-19T14:23:44.498265409+02:00","level":"INFO","msg":"handler: started","stream_id":"sthocfm1"}
+{"time":"2025-05-19T14:23:44.806688613+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-19T14:23:53.650007411+02:00","level":"INFO","msg":"stream: closing","id":"sthocfm1"}
+{"time":"2025-05-19T14:23:53.650057329+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-19T14:23:53.650097843+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-19T14:23:54.462774327+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-19T14:23:54.769069039+02:00","level":"INFO","msg":"handler: closed","stream_id":"sthocfm1"}
+{"time":"2025-05-19T14:23:54.769132745+02:00","level":"INFO","msg":"sender: closed","stream_id":"sthocfm1"}
+{"time":"2025-05-19T14:23:54.769124396+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sthocfm1"}
+{"time":"2025-05-19T14:23:54.76988429+02:00","level":"INFO","msg":"stream: closed","id":"sthocfm1"}

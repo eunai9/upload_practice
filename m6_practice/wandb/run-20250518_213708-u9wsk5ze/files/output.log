@@ -1,0 +1,2 @@
+[34m[1mwandb[0m: [32m[41mERROR[0m LinkArtifact: corrupt-mnist-model, error: returned error 400: {"data":{"linkArtifact":null},"errors":[{"message":"cannot link artifact of type `model` to collection of type `Model`","path":["linkArtifact"]}]}
+[34m[1mwandb[0m: [32m[41mERROR[0m Error fetching link artifact after linking: artifact 'corrupt-mnist-model:v0' not found in 'eunai9/model-registry'

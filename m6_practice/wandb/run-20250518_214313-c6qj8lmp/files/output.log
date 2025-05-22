@@ -1,0 +1,11 @@
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Traceback (most recent call last):
+  File "/home/euna/m6_practice/src/m6_practice/download_artifact.py", line 9, in <module>
+    model.load_state_dict(torch.load("wandb/model.ckpt"))
+  File "/home/euna/miniconda3/envs/py310/lib/python3.10/site-packages/torch/serialization.py", line 1479, in load
+    with _open_file_like(f, "rb") as opened_file:
+  File "/home/euna/miniconda3/envs/py310/lib/python3.10/site-packages/torch/serialization.py", line 759, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/euna/miniconda3/envs/py310/lib/python3.10/site-packages/torch/serialization.py", line 740, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'wandb/model.ckpt'

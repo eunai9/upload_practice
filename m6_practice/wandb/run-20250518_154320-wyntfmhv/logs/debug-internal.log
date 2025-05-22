@@ -1,0 +1,15 @@
+{"time":"2025-05-18T15:43:20.118167242+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/euna/m6_practice/wandb/run-20250518_154320-wyntfmhv/logs/debug-core.log"}
+{"time":"2025-05-18T15:43:20.896570478+02:00","level":"INFO","msg":"created new stream","id":"wyntfmhv"}
+{"time":"2025-05-18T15:43:20.896717913+02:00","level":"INFO","msg":"stream: started","id":"wyntfmhv"}
+{"time":"2025-05-18T15:43:20.89702078+02:00","level":"INFO","msg":"sender: started","stream_id":"wyntfmhv"}
+{"time":"2025-05-18T15:43:20.897127283+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"wyntfmhv"}
+{"time":"2025-05-18T15:43:20.897794038+02:00","level":"INFO","msg":"handler: started","stream_id":"wyntfmhv"}
+{"time":"2025-05-18T15:43:21.478714098+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-18T15:45:52.956469518+02:00","level":"INFO","msg":"stream: closing","id":"wyntfmhv"}
+{"time":"2025-05-18T15:45:52.95660964+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-18T15:45:52.956822787+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-18T15:45:53.736426973+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-18T15:45:54.100957467+02:00","level":"INFO","msg":"handler: closed","stream_id":"wyntfmhv"}
+{"time":"2025-05-18T15:45:54.101015321+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wyntfmhv"}
+{"time":"2025-05-18T15:45:54.101085772+02:00","level":"INFO","msg":"sender: closed","stream_id":"wyntfmhv"}
+{"time":"2025-05-18T15:45:54.10118871+02:00","level":"INFO","msg":"stream: closed","id":"wyntfmhv"}

@@ -1,0 +1,15 @@
+{"time":"2025-05-18T20:11:26.214809674+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/euna/m6_practice/wandb/run-20250518_201126-ugclezye/logs/debug-core.log"}
+{"time":"2025-05-18T20:11:26.876822636+02:00","level":"INFO","msg":"created new stream","id":"ugclezye"}
+{"time":"2025-05-18T20:11:26.87706467+02:00","level":"INFO","msg":"stream: started","id":"ugclezye"}
+{"time":"2025-05-18T20:11:26.877098255+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"ugclezye"}
+{"time":"2025-05-18T20:11:26.877236341+02:00","level":"INFO","msg":"sender: started","stream_id":"ugclezye"}
+{"time":"2025-05-18T20:11:26.877617416+02:00","level":"INFO","msg":"handler: started","stream_id":"ugclezye"}
+{"time":"2025-05-18T20:11:27.0918765+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-18T20:13:59.532591685+02:00","level":"INFO","msg":"stream: closing","id":"ugclezye"}
+{"time":"2025-05-18T20:13:59.532761825+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-18T20:13:59.533066471+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-18T20:14:00.266182259+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-18T20:14:00.572723923+02:00","level":"INFO","msg":"handler: closed","stream_id":"ugclezye"}
+{"time":"2025-05-18T20:14:00.572840524+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ugclezye"}
+{"time":"2025-05-18T20:14:00.572965012+02:00","level":"INFO","msg":"sender: closed","stream_id":"ugclezye"}
+{"time":"2025-05-18T20:14:00.573050415+02:00","level":"INFO","msg":"stream: closed","id":"ugclezye"}

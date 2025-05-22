@@ -1,0 +1,30 @@
+/home/euna/miniconda3/envs/py310/lib/python3.10/site-packages/lightning/pytorch/callbacks/model_checkpoint.py:654: Checkpoint directory /home/euna/m6_practice/models exists and is not empty.
+
+  | Name      | Type             | Params | Mode
+-------------------------------------------------------
+0 | conv1     | Conv2d           | 320    | train
+1 | conv2     | Conv2d           | 18.5 K | train
+2 | conv3     | Conv2d           | 73.9 K | train
+3 | dropout   | Dropout          | 0      | train
+4 | fc1       | Linear           | 1.3 K  | train
+5 | criterion | CrossEntropyLoss | 0      | train
+-------------------------------------------------------
+94.0 K    Trainable params
+0         Non-trainable params
+94.0 K    Total params
+0.376     Total estimated model params size (MB)
+6         Modules in train mode
+0         Modules in eval mode
+Epoch 9: 100%|██████████████████████████████████████████████████| 187/187 [00:10<00:00, 18.37it/s, v_num=760d]
+/home/euna/miniconda3/envs/py310/lib/python3.10/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:425: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+/home/euna/miniconda3/envs/py310/lib/python3.10/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:425: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+                                                                                                              
+Metric val_loss improved. New best score: 1.200
+Metric val_loss improved by 0.310 >= min_delta = 0.0. New best score: 0.891
+Metric val_loss improved by 0.224 >= min_delta = 0.0. New best score: 0.667
+Metric val_loss improved by 0.191 >= min_delta = 0.0. New best score: 0.476
+Metric val_loss improved by 0.095 >= min_delta = 0.0. New best score: 0.381
+Metric val_loss improved by 0.036 >= min_delta = 0.0. New best score: 0.345
+Metric val_loss improved by 0.038 >= min_delta = 0.0. New best score: 0.308
+Metric val_loss improved by 0.034 >= min_delta = 0.0. New best score: 0.273
+`Trainer.fit` stopped: `max_epochs=10` reached.

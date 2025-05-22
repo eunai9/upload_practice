@@ -1,0 +1,3 @@
+[console_scripts]
+greetings = src.m6_practice.iris_classifier:app
+train = m6_practice.train:main

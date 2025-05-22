@@ -1,0 +1,18 @@
+{"time":"2025-05-18T21:37:08.895140361+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/euna/m6_practice/wandb/run-20250518_213708-u9wsk5ze/logs/debug-core.log"}
+{"time":"2025-05-18T21:37:09.61693101+02:00","level":"INFO","msg":"created new stream","id":"u9wsk5ze"}
+{"time":"2025-05-18T21:37:09.617744217+02:00","level":"INFO","msg":"stream: started","id":"u9wsk5ze"}
+{"time":"2025-05-18T21:37:09.618562863+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"u9wsk5ze"}
+{"time":"2025-05-18T21:37:09.618777043+02:00","level":"INFO","msg":"sender: started","stream_id":"u9wsk5ze"}
+{"time":"2025-05-18T21:37:09.619620996+02:00","level":"INFO","msg":"handler: started","stream_id":"u9wsk5ze"}
+{"time":"2025-05-18T21:37:09.971765486+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-18T21:37:11.089848372+02:00","level":"ERROR","msg":"HTTP error","status":400,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-18T21:37:11.090201362+02:00","level":"ERROR","msg":"sender: linkArtifact:","error":"LinkArtifact: corrupt-mnist-model, error: returned error 400: {\"data\":{\"linkArtifact\":null},\"errors\":[{\"message\":\"cannot link artifact of type `model` to collection of type `Model`\",\"path\":[\"linkArtifact\"]}]}"}
+{"time":"2025-05-18T21:37:12.050536378+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-18T21:37:12.050989236+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-18T21:37:12.790085121+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-18T21:37:13.054481726+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary, console lines 0-1","runtime_seconds":0.264096816}],"total_operations":1}}
+{"time":"2025-05-18T21:37:13.412362273+02:00","level":"INFO","msg":"stream: closing","id":"u9wsk5ze"}
+{"time":"2025-05-18T21:37:13.412511321+02:00","level":"INFO","msg":"handler: closed","stream_id":"u9wsk5ze"}
+{"time":"2025-05-18T21:37:13.412537967+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"u9wsk5ze"}
+{"time":"2025-05-18T21:37:13.412585653+02:00","level":"INFO","msg":"sender: closed","stream_id":"u9wsk5ze"}
+{"time":"2025-05-18T21:37:13.412713329+02:00","level":"INFO","msg":"stream: closed","id":"u9wsk5ze"}
