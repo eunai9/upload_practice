@@ -1,0 +1,26 @@
+{
+  "os": "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-05-18T19:37:08.878077Z",
+  "program": "/home/euna/m6_practice/src/m6_practice/link_to_registry.py",
+  "codePath": "src/m6_practice/link_to_registry.py",
+  "root": "/home/euna/m6_practice",
+  "host": "BOOK-G5TAVLI8NM",
+  "executable": "/home/euna/miniconda3/envs/py310/bin/python",
+  "codePathLocal": "src/m6_practice/link_to_registry.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "53906399232"
+    }
+  },
+  "memory": {
+    "total": "8168837120"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 16
+  }
+}

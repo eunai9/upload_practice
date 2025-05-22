@@ -1,0 +1,5 @@
+hyperparameters:
+  batch_size: 32
+  epochs: 5
+  seed: 42
+  save_path: "models/trained_model_conf.pt"
