@@ -13,7 +13,7 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.ba
 app = typer.Typer()
 
 @app.command()
-def evaluate(model_checkpoint: Annotated[str, typer.Option("--model_path", "-p")] = "model.pth") -> None: 
+def evaluate(model_checkpoint: Annotated[str, typer.Option("--model_path", "-p")] = "model.pth") -> None:
     """Evaluate a trained model."""
     print("Evaluating like my life depended on it")
     print(model_checkpoint)

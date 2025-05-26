@@ -40,7 +40,7 @@ class MyAwesomeModel(pl.LightningModule):
         self.log('train_loss', loss)
         self.log('train_acc', acc)
         return loss
-    
+
     def validation_step(self, batch) -> None:
         data, target = batch
         preds = self(data)
@@ -69,7 +69,7 @@ if __name__ == "__main__":
     checkpoint_callback = ModelCheckpoint(
         dirpath="./models", monitor="val_loss", mode="min"
     )
-    trainer = pl.Trainer(max_epochs=10, limit_train_batches=0.2, 
+    trainer = pl.Trainer(max_epochs=10, limit_train_batches=0.2,
                       callbacks=[early_stopping_callback, checkpoint_callback],
                       logger=pl.loggers.WandbLogger(project="dtu_mlops"))
     trainer.fit(model, train_dataloader, val_dataloader)

@@ -16,7 +16,7 @@ logging.basicConfig(filename='mnist.log', level=logging.INFO,)
 log = logging.getLogger(__name__)
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
-batch_size=config.hyperparameters.batch_size  
+batch_size=config.hyperparameters.batch_size
 epochs=config.hyperparameters.epochs
 save_path=config.hyperparameters.save_path
 
