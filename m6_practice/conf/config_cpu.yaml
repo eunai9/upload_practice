@@ -1,0 +1,9 @@
+workerPoolSpecs:
+    machineSpec:
+        machineType: n1-highmem-2
+    replicaCount: 1
+    containerSpec:
+        imageUri: europe-west1-docker.pkg.dev/dtumlops-461312/my-container-registry/image1:latest
+        env:
+        - name: WANDB_API_KEY
+          value: 370d3bfdcf3a3ca78ffe9d9cbfbafaf1011a7e6b
